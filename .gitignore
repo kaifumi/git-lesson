@@ -1,2 +1,3 @@
 # ここに書いたファイルをGitの管理から除外する
 ignore_file
+ignore_directory/
