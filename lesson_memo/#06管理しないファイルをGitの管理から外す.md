@@ -18,4 +18,7 @@ git rm --cached [ファイル名]
 ※.gitignoreへの追記は必要  
 
 # 状態を元に戻す
-git reset HEAD [ファイル名]
+・git reset HEAD [ファイル名]
+→「Unstaged changes after reset」と表示されるがこれで良い  
+・このままだとローカルのファイルは消えたままなので  
+・git checkout [ファイル名]でファイルを復元する  
